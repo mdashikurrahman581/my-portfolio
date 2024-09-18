@@ -1,0 +1,126 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Shared style*/
+.text-primary{
+    color: rgba(253, 110, 10, 1);
+}
+
+.dark-1{
+    color: rgba(24, 24, 24, 1);
+}
+.dark-2{
+    color: rgba(71, 71, 71, 1);
+}
+
+.dark-3{
+    color: rgba(117, 117, 117, 1);
+}
+
+.btn-primary{
+    background-color: rgba(253, 110, 10, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 18px 35px 19px 36px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+
+}
+/*Header Style*/
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+/* Nav Style*/
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 50px 200px;
+ 
+    
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+   
+}
+
+nav ul li{
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+nav ul li a .hire-box-size{
+    width: 150px;
+    height: 64px;
+}
+/*Banner Style*/
+.banner{
+    display: flex;
+    /* background-color: rgba(255, 248, 243, 1); */
+    justify-content: space-between;
+    margin-left: 230px;
+    margin-right: 38px;
+}
+.banner-content{
+    max-width: 585px;
+   
+}
+.banner-greetings{
+   font-size: 45px;
+   font-weight: 600; 
+   margin-bottom: 5px;
+}
+
+.banner-title{
+
+    font-size: 85px;
+    font-weight: 700; 
+    margin-bottom: 20px;
+    
+}
+.banner-description{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.download-cv-box-size{
+    height: 64px;
+    width: 200px;
+    margin-right: 30px;
+}
+.banner .banner-content .btn-contact{
+    font-weight: bold;
+    color: rgba(253, 110, 10, 1);
+    padding: 18px 35px 19px 36px;
+    border-radius: 5px;
+    border-color:rgba(253, 110, 10, 1) ;
+    width: 160px;
+    height: 64px;
+    background-color:rgba(255, 248, 243, 1) ;
+  
+}
+
+.banner-profile-picture{
+width: 584px;
+height: 676px;
+
+}
+
