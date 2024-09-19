@@ -40,6 +40,7 @@
 .section-title{
     font-size: 35px;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 .section-description{
     font-size: 18px;
@@ -150,7 +151,7 @@ main{
     border-radius: 10px;
     padding: 130px 155px;
     margin-top: 130px;
-   text-align: center;
+    text-align: center;
 
 }
 
@@ -171,4 +172,100 @@ main{
     font-weight: 700;
     color: rgba(71, 71, 71, 1);
     
+}
+
+/*What I do style*/
+.skills{
+    /* border-radius: 10px; */
+    /* padding: 130px 155px; */
+    text-align: center;
+    margin-top: 130px;
+}
+.skill-title{
+    font-weight: bold;
+    font-size: 35px;
+   
+    text-align: center;
+    
+}
+.skill-description{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+   
+    
+}
+/*Programming skills*/
+.p-skills-container{
+    display: flex;
+}
+.p-skill{
+    width: 265px;
+    height: 300px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: start;
+    margin-right: 24px;
+    /* border: solid chartreuse; */
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 130px;
+}
+.p-icons{
+    width: 44px;
+    height: 44px;
+    
+
+}
+.p-skill-title{
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.p-skill-description{
+    font-size: 16px;
+  
+}
+
+/*Summary style*/
+.summary-title{
+    text-align: center;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.education-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(71, 71, 71, 1);
+
+}
+.degree{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(71, 71, 71, 1);
+}
+.university{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(117, 117, 117, 1);
+
+}
+.education-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(117, 117, 117, 1);
+}
+a .resume-download-btn{
+   text-decoration: none;
+   margin-left: 500px;
+   margin-bottom:30px ;
+   margin-top:30px ;
+ 
 }
