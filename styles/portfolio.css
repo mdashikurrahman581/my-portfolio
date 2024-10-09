@@ -327,3 +327,169 @@ footer textarea{
     margin-left: 24px;
     margin-right: 24px;
 }
+
+
+/* Responsive media query */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+/* What I do */
+    .p-skills-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .skills{
+    
+        margin-top: 30px;
+    }
+
+.skill-description {
+    width: 100%;
+    margin-right: 0px;
+    /* padding: 20px; */
+}
+.p-skill {
+    width: auto;
+    padding: 20px;
+    margin-right:0px;
+    margin-bottom: 20px;
+}
+
+/* About me */
+.about {
+   
+    padding: 20px; 
+    margin-top: 20px;
+    
+    
+}
+.about-items {
+ 
+    flex-direction: column;
+}
+
+/* summary of my resume */
+.resume-container {
+  flex-direction: column;
+}
+.education-title {
+
+    color:black;
+}
+a .resume-download-btn {
+    margin-left: 100px;
+  
+}
+/* banner */
+.banner {
+  flex-direction: column;
+  
+    margin-left: 0px; 
+    margin-right: 0px;
+   
+
+}
+.header{
+    background-image: none;
+    background-color: rgba(255, 248, 243, 1); 
+}
+
+
+.banner-profile-picture {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+nav {
+   
+    
+    align-items: flex-start;
+    margin: 0px 0px;
+    flex-direction: column;
+}
+ul {
+ 
+    padding-inline-start: 5px;
+    
+}
+
+.nav-title {
+   padding-left: 5px;
+   margin-top: 10px;
+}
+nav ul {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+
+  .download-cv-box-size {
+
+    margin-right: 10px;
+    margin-left: 10px;
+}
+img {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+/* footer */
+.footer-contact {
+    width: 100%; 
+}
+.footer-container {
+   flex-direction: column;
+    height: auto;
+    padding: 0px 0px;
+    gap: 30px;
+    margin-left: 10px;
+}
+
+.footer-description {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.footer-message {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer input[type="text"], footer input[type="email"] {
+    display: block;
+    height: 44px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    padding: 0px 0px 0px 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+footer textarea {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+  
+}
+
+
+}
